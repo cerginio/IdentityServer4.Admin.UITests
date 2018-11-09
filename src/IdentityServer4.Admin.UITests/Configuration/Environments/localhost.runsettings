@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+    <TestRunParameters>
+      <Parameter name="SeleniumDriver" value="Chrome"/>
+      <Parameter name="OpenIdStsRootUrl" value="https://localhost:44301"/>
+      <Parameter name="TestClientAppRootUrl" value="http://localhost:1391"/>
+      <Parameter name="InternalAdfs_ExpectIntegratedAuth" value="True"/>
+      <Parameter name="AdminRootUrl" value="http://localhost:9000"/>
+    </TestRunParameters>
+</RunSettings>

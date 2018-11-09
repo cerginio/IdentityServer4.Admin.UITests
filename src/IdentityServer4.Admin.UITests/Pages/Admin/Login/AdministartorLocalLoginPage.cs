@@ -1,0 +1,37 @@
+﻿using OpenQA.Selenium;
+
+namespace Pluto.Test.UI.Api.Admin.Login
+{
+    internal class AdministartorLocalLoginPage : SeleniumPage
+    {
+        private string _loginRootUrl;// = "https://localhost:5000/idsrv/account/login";
+
+        private IWebElement UsernameInput => Driver.FindElement(By.XPath(@"//*[@id='Username']"));
+        private IWebElement PasswordInput => Driver.FindElement(By.XPath("//*[@id='Password']"));
+        private IWebElement SubmitButton => Driver.FindElement(By.XPath("/html/body/div[2]/div/div[2]/div[1]/div/div[2]/form/fieldset/div[4]/button[1]"));
+
+
+
+        internal AdministartorLocalLoginPage(IWebDriver driver) : base(driver)
+        {
+            _loginRootUrl = $"{StsUrl.StsRootUrl}/idsrv/account/login";
+        }
+
+        public void DoLogin()
+        {
+            if (Driver.Url.ToLower()
+                .StartsWith(_loginRootUrl.ToLower()))
+            {
+                Username = "alice";
+                Password = "alice";
+                ClickSubmit();
+            }
+        }
+
+        private string Username { set => UsernameInput.SendKeys(value); }
+
+        private string Password { set => PasswordInput.SendKeys(value); }
+
+        private void ClickSubmit() { SubmitButton.Click(); }
+    }
+}
