@@ -73,7 +73,7 @@ namespace IdentityServer4.Admin.UITests.Steps.Administration
             // Properties - PoC
             var properties = new List<(string, string)>
             {
-                ("owner", "Idm team / integration test"),
+                ("owner", "Identity server team / integration test"),
                 ("test executed on", $"{DateTime.Now:yyyy-MM-dd HH:mm:ss}"),
                 ("example", "example to be deleted")
             };

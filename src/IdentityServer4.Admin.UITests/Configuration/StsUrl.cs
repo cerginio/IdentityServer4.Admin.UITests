@@ -63,7 +63,7 @@ namespace IdentityServer4.Admin.UITests.Configuration
                 .CreateAuthorizeUrl(
                     clientId: oidc.clientId,
                     responseType: oidc.responseType,// OidcConstants.ResponseTypes.CodeIdTokenToken,
-                    scope: oidc.scope,//"openid profile idm roles",
+                    scope: oidc.scope,//"openid profile roles",
                     redirectUri: oidc.redirectUri,// $"http://localhost:1391/Home/PostResult",
                     nonce: nonce,
                     acrValues: oidc.acrValues,
@@ -89,7 +89,7 @@ namespace IdentityServer4.Admin.UITests.Configuration
                 .CreateAuthorizeUrl(
                     clientId: oidc.clientId,
                     responseType: oidc.responseType,// OidcConstants.ResponseTypes.IdTokenToken,
-                    scope: oidc.scope,//"openid profile idm roles",
+                    scope: oidc.scope,//"openid profile roles",
                     redirectUri: oidc.redirectUri,// $"http://localhost:1391/Home/PostResult",
                     responseMode: oidc.responseMode,//OidcConstants.ResponseModes.FormPost
                     nonce: nonce,
