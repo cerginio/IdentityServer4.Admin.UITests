@@ -1,4 +1,4 @@
-﻿namespace Pluto.Test.UI.Steps.Administration.Models
+﻿namespace IdentityServer4.Admin.UITests.Models
 {
     public class AdminPortalConsts
     {

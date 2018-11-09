@@ -1,8 +1,8 @@
 ﻿using IdentityServer4.Admin.UITests.Html.Elements;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Tabs;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin.EditClient.Tabs;
 
-namespace Pluto.Test.UI.Api.Admin.EditClient.Pages
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages
 {
     internal class ClientDetailsEditPage : SeleniumPage
     {

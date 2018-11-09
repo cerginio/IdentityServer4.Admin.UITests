@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace Pluto.Test.UI.Api
+namespace IdentityServer4.Admin.UITests.Pages
 {
     internal class SeleniumPage
     {

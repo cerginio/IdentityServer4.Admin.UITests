@@ -1,4 +1,4 @@
-﻿namespace Pluto.Test.UI.Steps.Administration.Models.IdentityModel
+﻿namespace IdentityServer4.Admin.UITests.Models.IdentityModel
 {
     public static class IdentityServerConstants
     {

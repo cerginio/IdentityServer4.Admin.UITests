@@ -1,9 +1,10 @@
 using IdentityModel;
+using IdentityServer4.Admin.UITests.Models.IdentityModelv216.AuthReq;
+using IdentityServer4.Admin.UITests.Pages.TestClient;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pluto.Test.UI.Api.TestCoreMvc;
-using Pluto.Test.UI.IdentityModel216;
+using Pluto.Test.UI;
 
-namespace Pluto.Test.UI
+namespace IdentityServer4.Admin.UITests.Configuration
 {
     // TODO: SolutionUrl rename
     // OpenIdStsRootUrl, AdminRootUrl => STSRootUrl, AdminRootUrl

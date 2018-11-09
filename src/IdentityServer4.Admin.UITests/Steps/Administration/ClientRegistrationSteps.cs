@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using IdentityServer4.Admin.UITests.Html.Extensions;
+using IdentityServer4.Admin.UITests.Models.IdentityModel;
+using IdentityServer4.Admin.UITests.Pages.Admin;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Delete;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin;
-using Pluto.Test.UI.Api.Admin.EditClient.Delete;
-using Pluto.Test.UI.Api.Admin.EditClient.Pages;
-using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
 
-namespace Pluto.Test.UI.Steps.Administration
+namespace IdentityServer4.Admin.UITests.Steps.Administration
 {
     public class ClientRegistrationSteps : AdminStepsBase
     {

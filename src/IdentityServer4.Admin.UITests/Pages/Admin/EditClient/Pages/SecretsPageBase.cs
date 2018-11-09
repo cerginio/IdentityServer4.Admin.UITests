@@ -2,11 +2,11 @@
 using System.Diagnostics;
 using IdentityServer4.Admin.UITests.Html.Elements;
 using IdentityServer4.Admin.UITests.Html.Extensions;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Delete;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages.Items;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin.EditClient.Delete;
-using Pluto.Test.UI.Api.Admin.EditClient.Pages.Items;
 
-namespace Pluto.Test.UI.Api.Admin.EditClient.Pages
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages
 {
     internal class SecretsPageBase : SeleniumPage
     {

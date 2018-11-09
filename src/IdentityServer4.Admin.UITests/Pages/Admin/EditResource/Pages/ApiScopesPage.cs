@@ -5,7 +5,7 @@ using IdentityServer4.Admin.UITests.Html.Elements.Bootstrap;
 using IdentityServer4.Admin.UITests.Html.Extensions;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.EditResource.Pages
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditResource.Pages
 {
     internal class ApiScopesPage : SeleniumPage
     {

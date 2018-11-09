@@ -1,12 +1,13 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+using IdentityServer4.Admin.UITests.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.Extensions;
 
-namespace Pluto.Test.UI.Tests.Base
+namespace IdentityServer4.Admin.UITests.Tests.Admin.Base
 {
     public class SeleniumTest
     {

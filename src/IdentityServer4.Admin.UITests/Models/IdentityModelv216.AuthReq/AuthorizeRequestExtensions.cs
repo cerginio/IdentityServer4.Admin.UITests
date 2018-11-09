@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Pluto.Test.UI.IdentityModel216
+namespace IdentityServer4.Admin.UITests.Models.IdentityModelv216.AuthReq
 {
     public static class AuthorizeRequestExtensions
     {

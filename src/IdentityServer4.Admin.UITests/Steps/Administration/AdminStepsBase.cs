@@ -1,9 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using IdentityServer4.Admin.UITests.Pages.Admin;
+using IdentityServer4.Admin.UITests.Pages.Admin.Login;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin;
-using Pluto.Test.UI.Api.Admin.Login;
 
-namespace Pluto.Test.UI.Steps.Administration
+namespace IdentityServer4.Admin.UITests.Steps.Administration
 {
     public class AdminStepsBase
     {

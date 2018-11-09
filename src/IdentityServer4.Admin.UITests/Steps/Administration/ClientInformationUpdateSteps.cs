@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using IdentityServer4.Admin.UITests.Html.Extensions;
+using IdentityServer4.Admin.UITests.Models.IdentityModel;
+using IdentityServer4.Admin.UITests.Pages.Admin;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages;
+using IdentityServer4.Admin.UITests.Pages.TestClient;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin;
-using Pluto.Test.UI.Api.Admin.EditClient.Pages;
-using Pluto.Test.UI.Api.TestCoreMvc;
-using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
 
-namespace Pluto.Test.UI.Steps.Administration
+namespace IdentityServer4.Admin.UITests.Steps.Administration
 {
     internal class ClientInformationUpdateSteps : AdminStepsBase
     {

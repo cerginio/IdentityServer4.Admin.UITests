@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace Pluto.Test.UI.Api.TestCoreMvc
+namespace IdentityServer4.Admin.UITests.Pages.TestClient
 {
     internal class HomePage : SeleniumPage
     {

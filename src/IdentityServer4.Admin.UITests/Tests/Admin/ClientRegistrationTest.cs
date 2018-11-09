@@ -1,10 +1,11 @@
 ﻿using System.Linq;
+using IdentityServer4.Admin.UITests.Configuration;
+using IdentityServer4.Admin.UITests.Models;
+using IdentityServer4.Admin.UITests.Steps.Administration;
+using IdentityServer4.Admin.UITests.Tests.Admin.Base;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pluto.Test.UI.Steps.Administration;
-using Pluto.Test.UI.Steps.Administration.Models;
-using Pluto.Test.UI.Tests.Base;
 
-namespace Pluto.Test.UI.Tests.Admin
+namespace IdentityServer4.Admin.UITests.Tests.Admin
 {
     [TestClass]
     public class ClientRegistrationTest : SeleniumTest

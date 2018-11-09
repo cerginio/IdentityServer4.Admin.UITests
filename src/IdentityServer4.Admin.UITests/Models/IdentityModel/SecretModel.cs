@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pluto.Test.UI.Steps.Administration.Models.IdentityModel
+namespace IdentityServer4.Admin.UITests.Models.IdentityModel
 {
     /// <summary>
     /// Models a client secret with identifier and expiration

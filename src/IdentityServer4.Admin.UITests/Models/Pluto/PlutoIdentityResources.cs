@@ -1,6 +1,6 @@
-﻿using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
+﻿using IdentityServer4.Admin.UITests.Models.IdentityModel;
 
-namespace Pluto.Test.UI.Steps.Administration.Models.Pluto
+namespace IdentityServer4.Admin.UITests.Models.Pluto
 {
     public static class MyProjectIdentityResourcesStub
     {

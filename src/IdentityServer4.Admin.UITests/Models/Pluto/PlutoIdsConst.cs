@@ -1,4 +1,4 @@
-﻿namespace Pluto.Test.UI.Steps.Administration.Models.Pluto
+﻿namespace IdentityServer4.Admin.UITests.Models.Pluto
 {
     public static class MyProjectIdsConst
     {

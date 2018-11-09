@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using IdentityModel;
 
-namespace Pluto.Test.UI.Steps.Administration.Models.IdentityModel
+namespace IdentityServer4.Admin.UITests.Models.IdentityModel
 {
     internal static class Constants
     {

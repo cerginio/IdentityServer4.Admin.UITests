@@ -2,7 +2,7 @@
 using IdentityServer4.Admin.UITests.Html.Elements.Bootstrap;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.EditResource
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditResource
 {
     internal class IdentityResourceDetailsEditPage : SeleniumPage
     {

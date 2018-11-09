@@ -1,8 +1,8 @@
 ﻿using IdentityServer4.Admin.UITests.Html.Elements;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin.EditClient.Pages;
 
-namespace Pluto.Test.UI.Api.Admin.EditResource.Pages
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditResource.Pages
 {
     internal class ApiSecretsPage : SecretsPageBase
     {

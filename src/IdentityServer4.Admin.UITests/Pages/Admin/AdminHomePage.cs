@@ -1,9 +1,10 @@
 ﻿using System;
+using IdentityServer4.Admin.UITests.Configuration;
 using IdentityServer4.Admin.UITests.Html.Elements;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace Pluto.Test.UI.Api.Admin
+namespace IdentityServer4.Admin.UITests.Pages.Admin
 {
     internal class AdminHomePage : SeleniumPage
     {

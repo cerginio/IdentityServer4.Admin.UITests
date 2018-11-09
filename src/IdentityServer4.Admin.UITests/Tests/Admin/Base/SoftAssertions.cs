@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Pluto.Test.UI.Tests.Base
+namespace IdentityServer4.Admin.UITests.Tests.Admin.Base
 {
     /// <summary>
     /// SoftAssertions

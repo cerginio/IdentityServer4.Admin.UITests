@@ -1,7 +1,7 @@
 ﻿using IdentityServer4.Admin.UITests.Html.Elements;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.Base
+namespace IdentityServer4.Admin.UITests.Pages.Admin.Base
 {
     internal class TabBase : SeleniumPage
     {

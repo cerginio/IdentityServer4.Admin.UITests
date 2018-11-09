@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.TestCoreMvc
+namespace IdentityServer4.Admin.UITests.Pages.TestClient
 {
     internal class CancelledPage : SeleniumPage
     {

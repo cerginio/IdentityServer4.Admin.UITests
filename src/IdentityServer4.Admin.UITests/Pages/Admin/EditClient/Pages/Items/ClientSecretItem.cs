@@ -3,7 +3,7 @@ using System.Diagnostics;
 using IdentityServer4.Admin.UITests.Html.Elements;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.EditClient.Pages.Items
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages.Items
 {
 
     internal class ClientSecretItem

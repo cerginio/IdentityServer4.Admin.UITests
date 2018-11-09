@@ -1,7 +1,7 @@
 ﻿using IdentityServer4.Admin.UITests.Html.Elements;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.EditClient.Pages
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages
 {
     internal partial class ClientSecretsPage : SecretsPageBase
     {public HtmlElement BackToClient => new HtmlElement(ByXPath("/html/body/div[2]/form/div/div[1]/nav/ol/li[2]/a"));

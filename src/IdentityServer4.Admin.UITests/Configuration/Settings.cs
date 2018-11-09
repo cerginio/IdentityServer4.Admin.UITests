@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Pluto.Test.UI
+namespace IdentityServer4.Admin.UITests.Configuration
 {
     internal static class Settings
     {

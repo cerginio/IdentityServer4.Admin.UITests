@@ -1,11 +1,11 @@
-﻿using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin;
-using Pluto.Test.UI.Api.Admin.EditClient.Pages;
-using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using IdentityServer4.Admin.UITests.Models.IdentityModel;
+using IdentityServer4.Admin.UITests.Pages.Admin;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Pages;
+using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Steps.Administration
+namespace IdentityServer4.Admin.UITests.Steps.Administration
 {
     internal class ClientInformationBatchUpdateSteps : AdminStepsBase
     {

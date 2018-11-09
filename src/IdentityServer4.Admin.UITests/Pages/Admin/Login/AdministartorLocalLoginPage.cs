@@ -1,6 +1,7 @@
-﻿using OpenQA.Selenium;
+﻿using IdentityServer4.Admin.UITests.Configuration;
+using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.Admin.Login
+namespace IdentityServer4.Admin.UITests.Pages.Admin.Login
 {
     internal class AdministartorLocalLoginPage : SeleniumPage
     {

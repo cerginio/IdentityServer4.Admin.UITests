@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Security.Claims;
-using IdentityModel;
 
-namespace Pluto.Test.UI.Tests.Base
+namespace IdentityServer4.Admin.UITests.Tests.Admin.Base
 {
     public class ClaimsAssertionFunc
     {

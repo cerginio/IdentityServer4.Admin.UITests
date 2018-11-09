@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
 using System.Security.Claims;
-using System.Threading.Tasks;
 using IdentityModel.Client;
 using Newtonsoft.Json.Linq;
 using OpenQA.Selenium;
 
-namespace Pluto.Test.UI.Api.TestCoreMvc
+namespace IdentityServer4.Admin.UITests.Pages.TestClient
 {
     [DebuggerStepThrough]
     internal class PostResultPage : SeleniumPage

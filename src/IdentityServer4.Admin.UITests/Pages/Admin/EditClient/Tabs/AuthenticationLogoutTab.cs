@@ -1,9 +1,9 @@
 ﻿using IdentityServer4.Admin.UITests.Html.Elements;
 using IdentityServer4.Admin.UITests.Html.Elements.Bootstrap;
+using IdentityServer4.Admin.UITests.Pages.Admin.Base;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin.Base;
 
-namespace Pluto.Test.UI.Api.Admin.EditClient.Tabs
+namespace IdentityServer4.Admin.UITests.Pages.Admin.EditClient.Tabs
 {
     internal class AuthenticationLogoutTab : TabBase
     {

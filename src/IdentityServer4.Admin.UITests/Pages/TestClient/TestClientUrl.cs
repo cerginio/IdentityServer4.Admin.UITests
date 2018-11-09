@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using IdentityServer4.Admin.UITests.Configuration;
 
-namespace Pluto.Test.UI.Api.TestCoreMvc
+namespace IdentityServer4.Admin.UITests.Pages.TestClient
 {
     internal class TestClientUrl
     {

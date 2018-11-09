@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using IdentityModel;
-using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
-using Pluto.Test.UI.Steps.Administration.Models.Pluto;
+using IdentityServer4.Admin.UITests.Models.IdentityModel;
+using IdentityServer4.Admin.UITests.Models.Pluto;
 
-namespace Pluto.Test.UI.Steps.Administration.Models
+namespace IdentityServer4.Admin.UITests.Models
 {
     public class TestClientsSpecifications
     {

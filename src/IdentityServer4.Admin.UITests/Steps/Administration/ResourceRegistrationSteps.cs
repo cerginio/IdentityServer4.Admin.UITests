@@ -1,13 +1,13 @@
 ﻿using System.Linq;
+using IdentityServer4.Admin.UITests.Models.IdentityModel;
+using IdentityServer4.Admin.UITests.Pages.Admin;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditResource;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditResource.Delete;
+using IdentityServer4.Admin.UITests.Pages.Admin.EditResource.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using Pluto.Test.UI.Api.Admin;
-using Pluto.Test.UI.Api.Admin.EditResource;
-using Pluto.Test.UI.Api.Admin.EditResource.Delete;
-using Pluto.Test.UI.Api.Admin.EditResource.Pages;
-using Pluto.Test.UI.Steps.Administration.Models.IdentityModel;
 
-namespace Pluto.Test.UI.Steps.Administration
+namespace IdentityServer4.Admin.UITests.Steps.Administration
 {
     public class ResourceRegistrationSteps : AdminStepsBase
     {
