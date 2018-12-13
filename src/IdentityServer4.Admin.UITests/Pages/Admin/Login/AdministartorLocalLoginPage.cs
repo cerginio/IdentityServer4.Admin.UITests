@@ -20,11 +20,12 @@ namespace IdentityServer4.Admin.UITests.Pages.Admin.Login
 
         public void DoLogin()
         {
+            var user = TestUsers.LocalTestUser;
             if (Driver.Url.ToLower()
                 .StartsWith(_loginRootUrl.ToLower()))
             {
-                Username = "alice";
-                Password = "alice";
+                Username = user.Login;// "alice";
+                Password = user.Password; // "alice";
                 ClickSubmit();
             }
         }
